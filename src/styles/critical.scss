@@ -1,0 +1,124 @@
+/*fonts*/
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    url("../fonts/HelveticaNeueCyr-UltraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr";
+url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+:root {
+    --color-white: #fff;
+    --color-white-opacity: rgba(255, 255, 255, 0.5);
+    --color-black: #0B0519;
+    --color-primary: #8045FF;
+    --color-opacity: rgba(28, 0, 44, 0.5);
+    --color-back-light: #F2ECE1;
+    --color-back-dark: #E5D9C3;
+    --color-light: #FAF7F3;
+    --color-grey: #9E9B94;
+    --Helvetica: 'HelveticaNeueCyr', sans-serif;
+}
+
+*, *:before,
+*:after {
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*, body, html {
+    -webkit-text-size-adjust: none;
+    -webkit-appearance: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+}
+
+mark {
+    -webkit-text-fill-color: initial;
+    text-fill-color: transparent;
+    background: none;
+}
+.img{
+    display: block;
+}
+.img.contain img {
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.img > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    background: transparent;
+}
+
+h1 {
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 666px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+
